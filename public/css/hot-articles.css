@@ -1,0 +1,5 @@
+.hot-articles {
+    grid-area: hot-articles;
+    max-width: 300px;
+
+}

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url('/assets/heroImg/hero.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 520px; 
+    display: block;
+    background-size:cover;
+    background-position: 50% 50%;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+@media screen and (min-width: 320px) {
+    
+    /* TODO fix the background img */
+}

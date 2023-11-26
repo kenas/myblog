@@ -1,0 +1,14 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "articles hot-articles";
+    max-width: 1200px;
+    /* column-gap: 6.6875rem; */
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+
+.articles {
+    grid-area: articles;
+}
