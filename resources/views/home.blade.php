@@ -6,15 +6,15 @@
     </div>
     <div class="container">
         <div class="content">
-            <article class="articles">
+            <section class="article">
                 @foreach($allArticles as $article)
-
+                    <article>
                     <h2>{{ $article->title }}</h2>
                     <p>{{ $article->content }}</p>
                     {{ $article->category->name }}
-
+                </article>
                 @endforeach
-            </article>
+            </section>
 
                 <div class="hot-articles">
                     <h3>HOT POSTS</h3>

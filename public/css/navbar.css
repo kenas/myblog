@@ -74,10 +74,11 @@
         flex-direction: column;
         background-color: var(--purple);
         width: 100%;
-        transform-origin: 0% 0%;
-        transform: translate(-100%, 0);
+        transform-origin: 24% 0%;
+        transform: translate(-120%, 0);
         
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        z-index: 1;
     }
 
     .links 
@@ -107,6 +108,9 @@
         text-align: center;
     }
 
+    .lupa path {
+        fill: var(--white);
+    }
     #menuToggle a {
         color: white;
     }

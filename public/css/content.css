@@ -7,7 +7,7 @@
     /* justify-content: center; */
 }
 
-.articles {
+.article {
     grid-area: articles;
 }
 
@@ -22,7 +22,7 @@
         
     }
 
-    .articles:first-child {
+    article:first-child {
         position: relative;
     }
     
