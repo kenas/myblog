@@ -24,6 +24,19 @@
 
     article:first-child {
         position: relative;
+        top: -30px;
+    }
+
+    article:first-child h2{
+     position: relative;
+     top: -4.38rem;
+    }
+
+    article h2 {
+        color: white;
+        text-align: center;
+        letter-spacing: 0.045rem;
+
     }
     
 }
