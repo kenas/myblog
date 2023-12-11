@@ -30,6 +30,6 @@
     
     /* TODO fix the background img */
     .hero {
-        max-height: clamp(40vh, 300px, 0px);
+        max-height: clamp(30vh, 300px, 0px);
     }
 }
