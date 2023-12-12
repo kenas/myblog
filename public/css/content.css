@@ -29,7 +29,10 @@
 
     article:first-child h2{
      position: relative;
-     top: -4.38rem;
+     top: -7.38rem;
+     font-size: clamp(2.5rem, 7.5vw, 4rem);
+     max-width: 90%;
+     margin: 0 auto;
     }
 
     article h2 {
