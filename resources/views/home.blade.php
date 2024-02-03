@@ -1,9 +1,10 @@
 @extends('layout.app')
 
 @section('content')
-    <div class="hero">
-  
-    </div>
+    <main>
+        <header class="hero">
+
+        </header>
     <div class="container">
         <div class="content">
             <section class="article">
@@ -22,4 +23,6 @@
                 </div>
         </div>
     </div>
+
+    </main>
 @endsection

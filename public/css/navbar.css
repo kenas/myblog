@@ -4,7 +4,11 @@ nav.navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;  /* 24px */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
 }
 
 div.logo-area {
@@ -24,9 +28,9 @@ nav.navbar ul.links {
     display: flex;
 }
 
-
 nav.navbar ul.links li {
     list-style: none;
+    position: relative;
     padding-left: 2.5625rem;
 }
 
@@ -37,4 +41,29 @@ nav.navbar ul.links a {
     font-weight: bold;
     color: #828297;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+nav.navbar ul.links a:first-child {
+    display: block;
+}
+
+nav.navbar ul.links a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0.625rem;
+    top: 1.875rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #716EF0;
+    border-radius: 3px;
+    transition: width 0.4s ease;
+}
+
+nav.navbar ul.links a:hover::before {
+    width: 13px;
 }

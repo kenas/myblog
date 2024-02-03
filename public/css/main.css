@@ -17,7 +17,11 @@
     --lightgray: #D9D9D9;
 }
 
-.hero {
+main {
+    padding-top: 7.625rem;
+}
+
+header.hero {
     background-image: url('/assets/heroImg/hero.png');
     background-repeat: no-repeat;
     max-width: 100%;
