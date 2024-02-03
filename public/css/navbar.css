@@ -1,5 +1,10 @@
+/* Font for logo */
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;500&display=swap');
+
+
 .navbar {
-    display: grid;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
     height: 7rem;
@@ -28,9 +33,10 @@
     display: none;
 }
 
-
-.logo-text {
+div.logo-text {
     color: var(--gray);
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 2px;
     font-size: 1rem;
 }
 
