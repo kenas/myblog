@@ -1,7 +1,7 @@
 section.content {
     display: flex;
     padding-top: 31.25rem; /* 500px; */
-    gap: 2.375rem;
+    gap: 4.375rem;
 }
 
 section.article {
@@ -16,8 +16,29 @@ section.article h2 {
 
 section.article picture {
     width: 800px;
- 
 }
+
+section.article article {
+    padding-bottom: 13.625rem;
+    letter-spacing: 2px;
+}
+
+section.article article .article {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    color: #9C9C9C;
+    padding: 2.125rem 0;
+}
+
+section.article article a {
+
+    background-color: var(--purple);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+} 
 
 section.article picture img {
     width: 100%;
@@ -25,23 +46,26 @@ section.article picture img {
     border-radius: 0.375rem;
 }
 
-section.content div.info-article {
+section.article div.info-article {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     color: #9C9C9C;
 }
 
-section.content div.info-wraper {
+section.article div.info-wraper {
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid #EDEDF0;
+    padding: 1rem 0;
 }
 
-section.content div.info-wraper p {
+section.article div.info-wraper p {
     color: #9C9C9C;
+    font-size: 1.1rem;
 }
 
-section.content div.info-article p {
+section.article div.info-article p {
     text-transform: uppercase;
     color: #9C9C9C;
     padding-left: 15px;

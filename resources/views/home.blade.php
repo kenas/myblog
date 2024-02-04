@@ -40,7 +40,7 @@
                                 {{ $article->created_at->format('d/m/Y') }}
                             </p>
                         </div>
-                    <p>{{ $article->content }}</p>
+                    <p class="article">{{ $article->content }}</p>
                    
 
                     <a href="">read more</a>
