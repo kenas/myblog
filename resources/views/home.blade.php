@@ -6,14 +6,37 @@
         <header class="hero">
             <div class="container">
                 <div class="current-article-container">
-                    <article>
-                        <h1>Beatae, odio vel vitae facere expedita</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repudiandae doloremque cum libero harum dolore suscipit officia sed explicabo a, error velit culpa laborum distinctio incidunt beatae voluptatibus! Repellendus, quae.</p>
-                    </article>
+                        <div class="current-article">
+                            <article>
+                                <h1>Beatae, odio vel vitae facere expedita</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repudiandae 
+                                    doloremque cum libero harum dolore suscipit officia sed explicabo a, error 
+                                    velit culpa laborum distinctio incidunt beatae voluptatibus! 
+                                    Repellendus, quae
+                                </p>
+                            </article>
+                            <a href="">read more</a>
+                        </div>
 
-                    <a href="">read more</a>
+                        <div class="info-current-article">
+                            <div class="icon">
+                                <i class="fa-regular fa-heart fa-xl"></i>
+                            </div>
+                            <p>
+                                HEALTH CARE
+                            </p>
+                            <p>
+                                16/11/2023
+                            </p>
+                                <div class="first-article-picture">
+                                    <img src="" alt="" width="135">
+                                    <img src="" alt="" width="135">
+                                    <img src="" alt="" width="135">
+                                </div>
+                        </div>
                 </div>
         </header>
+            </div>
    <div class="container">
         <section class="content">
 

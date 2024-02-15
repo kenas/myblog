@@ -7,3 +7,5 @@ Homestead.yaml
 /storage
 .phpunit.result.cache
 README.md
+
+public/assets/img/ilustrative/realLife/.DS_Store

@@ -1,17 +1,63 @@
+header.hero {
+    background-image: url('/assets/img/heroImg/hero.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 520px;
+    display: block;
+    background-size:cover;
+    background-position: 50% 50%;
+}
+
 div.current-article-container {
+    position: relative;
+    top: 280px;
+    border-radius: 0.375rem;
+    background-color: #EDEDF0;
+}
+
+div.current-article {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #EDEDF0;
-    position: relative;
-    top: 400px;
-    border-radius: 0.375rem;
+    border-bottom: 1px solid #717171;
 }
 
 div.current-article-container article{
     width: 650px;
-    padding: 4.5rem 0;
+    padding: 2.5rem 0;
+}
+
+div.info-current-article {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3.0625rem;
+}
+
+div.info-current-article div.icon {
+    display: flex;
+    align-items: center;
+}
+
+div.info-current-article div.icon i {
+    color: #9C9C9C;;
+}
+
+
+div.first-article-picture {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+
+div.first-article-picture img {
+    border: 1px solid blue;
+    
+    
 }
 
 article h1 {
